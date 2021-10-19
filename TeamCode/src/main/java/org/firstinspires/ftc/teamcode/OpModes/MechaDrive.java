@@ -13,8 +13,8 @@ public class MechaDrive extends OpMode {
     private DcMotor rightRear;
     private DcMotor leftFront;
     private DcMotor leftRear;
-    private Servo flipper;
-    private DcMotor liftMotor;
+    //private Servo flipper;
+    //private DcMotor liftMotor;
     public static final double MID_SERVO       =  0.5 ;
     public static final double LIFT_UP_POWER    =  0.45 ;
     public static final double LIFT_DOWN_POWER  = -0.45 ;
@@ -26,10 +26,11 @@ public class MechaDrive extends OpMode {
         leftRear = hardwareMap.get(DcMotor.class, "leftRear");
         rightFront = hardwareMap.get(DcMotor.class, "rightFront");
         rightRear = hardwareMap.get(DcMotor.class, "rightRear");
-        flipper = hardwareMap.get(Servo.class,"flipper");
-        liftMotor = hardwareMap.get(DcMotor.class,"liftMotor");
+       // flipper = hardwareMap.get(Servo.class,"flipper");
+        //liftMotor = hardwareMap.get(DcMotor.class,"liftMotor");
        // rightFront.setDirection(DcMotorSimple.Direction.REVERSE);
        // rightRear.setDirection(DcMotorSimple.Direction.REVERSE);
+        //Jackson close your code!!!!!
         int pos = 0;
         int pos2 = 0;
 
